@@ -1,0 +1,52 @@
+.section-cover {
+  height: 100vh;
+  display: flex;
+}
+
+.name-container {
+  max-width: 1020px;
+  margin: auto;
+  text-align: center;
+}
+
+.name {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.frontend {
+  font-size: 20px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nav-anchors {
+  font-size: 100px;
+  width: fit-content;
+  margin: auto;
+  color: #a5a5a5;
+}
+
+.nav-anchors:hover {
+  color: #000;
+}
+
+@media screen and (max-width: 1070px) {
+.nav-anchors{
+  font-size: 66px;
+}
+}
+
+@media screen and (max-width: 734px) {
+  .name-container{
+    width: 100%;
+}
+.nav-anchors{
+  font-size: 45px;
+}
+}

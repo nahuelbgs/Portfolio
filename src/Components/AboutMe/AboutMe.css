@@ -1,0 +1,55 @@
+.section-aboutMe {
+  display: flex;
+  height: 100vh;
+  max-width: 1020px;
+  margin: auto;
+}
+
+.aboutMe-container{
+  margin: auto;
+}
+.aboutMe {
+  font-size: 20px;
+}
+
+.tecnologias-container {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tecnologias-image {
+  width: 110px;
+}
+@media screen and (max-width: 1070px) {
+  .section-aboutMe {
+    text-align: center;
+  }
+  .aboutMe{
+    width: 690px;
+    margin: auto;
+  }
+  .tecnologias-container {
+    width: 690px;
+    justify-content: space-between;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 734px) {
+  .section-aboutMe {
+    text-align: center;
+    margin: 0 15px;
+  }
+  .aboutMe{
+    width: 100%;
+  }
+  .tecnologias-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .tecnologias-image {
+    width: 85px;
+  }
+}
