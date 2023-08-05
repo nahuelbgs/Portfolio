@@ -36,6 +36,16 @@ function ProyectsList() {
             repositorio='https://github.com/nahuelbgs/Rick-and-Morty'
           />
         </div>
+        <div className="proyect-4">
+          <PrincipalProyects
+            title="Trivia App"
+            image="https://i.ibb.co/kc6R6TT/triviamockup.png"
+            deploy="https://trivia-app-nahuelbgs.vercel.app/"
+            repositorio="https://github.com/nahuelbgs/trivia-app"
+            firstText="Demuestra tu sabiduría con Trivia App, una aplicación de preguntas y respuestas en inglés."
+            secondText="Selecciona la opción correcta mientras el contador registra tus aciertos en tiempo real."
+          />
+        </div>
       </div>
     </section>
   );
