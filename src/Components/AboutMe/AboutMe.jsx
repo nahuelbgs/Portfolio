@@ -18,22 +18,22 @@ function AboutMe() {
       <div className="tecnologias-container">
         <img
           className="tecnologias-image"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png"
+          src="https://i.ibb.co/6PKz1Xp/CSS3-logo-svg.png"
           alt="CSS Logo"
         />
         <img
           className="tecnologias-image"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+          src="https://i.ibb.co/Ns1ftVS/Java-Script-logo.png"
           alt="JavaScript Logo"
         />
         <img
           className="tecnologias-image"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+          src="https://i.ibb.co/kc45dZq/React-icon-svg.png"
           alt="React Logo"
         />
         <img
           className="tecnologias-image"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png"
+          src="https://i.ibb.co/bJD0G26/1280px-Sass-Logo-Color-svg.png"
           alt="SASS Logo"
         />
       </div>

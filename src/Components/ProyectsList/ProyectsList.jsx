@@ -9,7 +9,7 @@ function ProyectsList() {
         <div className="proyect-1">
           <PrincipalProyects
             title="No Gimmicks"
-            image="https://i.ibb.co/NTS58PZ/Mockup.png"
+            image="https://i.ibb.co/2MnT3DY/Mockup-1-1.png"
             deploy="https://no-gimmicks.vercel.app/"
             repositorio="https://github.com/nahuelbgs/NoGimmicks"
             firstText="No Gimmicks es un ecommerce especializado en la venta de ropa y accesorios."
@@ -20,7 +20,7 @@ function ProyectsList() {
           <SecondaryProyects
             title="Calcular TMB"
             color="blanco"
-            image="https://i.ibb.co/z8Spzjr/tmb.png"
+            image="https://i.ibb.co/T4YVb53/tmb.png"
             deploy='https://tmb-app-nahuelbgs.vercel.app/'
             repositorio='https://github.com/nahuelbgs/tmb-app'
             text="Calcula tu tasa metabólica basal para conocer las calorías necesarias para el mantenimiento diario del cuerpo."
@@ -31,18 +31,18 @@ function ProyectsList() {
             title="Rick And Morty"
             color="blanco"
             text="Aplicación con personajes de Rick and Morty que incluye paginación, filtro por nombre y opción de agregar a favoritos."
-            image="https://i.ibb.co/znt74x8/rym.png"
+            image="https://i.ibb.co/vd4NzNQ/rym.png"
             deploy='https://rick-and-morty-nahuelbgs.vercel.app/'
             repositorio='https://github.com/nahuelbgs/Rick-and-Morty'
           />
         </div>
         <div className="proyect-4">
           <PrincipalProyects
-            title="Trivia App"
-            image="https://i.ibb.co/kc6R6TT/triviamockup.png"
+            title="Quiz App"
+            image="https://i.ibb.co/6nBvMV6/triviamockup-min.png"
             deploy="https://trivia-app-nahuelbgs.vercel.app/"
             repositorio="https://github.com/nahuelbgs/trivia-app"
-            firstText="Demuestra tu sabiduría con Trivia App, una aplicación de preguntas y respuestas en inglés."
+            firstText="Demuestra tu sabiduría con Quiz App, una aplicación de preguntas y respuestas en inglés."
             secondText="Selecciona la opción correcta mientras el contador registra tus aciertos en tiempo real."
           />
         </div>

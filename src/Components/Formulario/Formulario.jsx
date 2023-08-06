@@ -28,7 +28,7 @@ function Formulario() {
             <h1 className="form-title">Contáctame</h1>
             <p className="form-description">
               Envíame un mail o contáctame por{" "}
-              <a className="linkedin">Linkedin</a>
+              <a target="_blank" href="https://www.linkedin.com/in/nahuel-amaya/" className="linkedin">Linkedin</a>
             </p>
             <div className="form-group">
               <label>Nombre</label>
@@ -55,7 +55,7 @@ function Formulario() {
         <div className="form-imagen-container">
           <img
             className="form-imagen"
-            src="https://i.ibb.co/QMLYhs7/Mail-i-OS-svg.png"
+            src="https://i.ibb.co/Z2cVswX/Mail-i-OS-svg.png"
           />
         </div>
       </div>
