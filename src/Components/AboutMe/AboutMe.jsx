@@ -13,7 +13,7 @@ function AboutMe() {
         activamente nuevas oportunidades laborales que me permitan ampliar mis
         conocimientos y potenciar mi crecimiento profesional.
       </p>
-      <a target="_blank" href="https://drive.google.com/file/d/1Xhsb0_O0cpyzzbz6K26ELWT4jvqLc6uu/view?usp=sharing" className="proyects-anchors">Ver CV</a>
+      <a target="_blank" href="https://drive.google.com/file/d/16rXOR5Oh9P9zOFWitw4UIhdhtRlz-rM-/view" className="proyects-anchors">Ver CV</a>
       <h1 className="tecnologias-h1">Tecnologías</h1>
       <div className="tecnologias-container">
         <img
