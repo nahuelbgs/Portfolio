@@ -1,6 +1,4 @@
-/* SECONDARY PROYECTS */
-
-.secondary-proyect {
+.secondary-project {
   display: flex;
   justify-content: space-between;
   height: 630px;
@@ -8,18 +6,29 @@
   border-radius: 25px;
   align-items: center;
   flex-direction: column;
-}
-
-.negro {
-  background-color: #000;
-  color: #fff;
-}
-
-.blanco {
   background-color: #fff;
 }
 
-.secondary-proyects-titles-container {
+.light-projects{
+  background-color: #fff;
+}
+
+.dark-projects{
+  background-color: #2B303D;
+}
+
+.dark-secondary-project{
+  display: flex;
+  justify-content: space-between;
+  height: 630px;
+  width: 500px;
+  border-radius: 25px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2B303D;
+}
+
+.secondary-projects-titles-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +37,7 @@
   width: 265px;
 }
 
-.secondary-proyects-title {
+.secondary-projects-title {
   font-weight: 700;
   font-size: 40px;
   text-align: center;
@@ -36,23 +45,23 @@
   letter-spacing: -1px;
 }
 
-.secondary-proyects-anchors-container {
+.secondary-projects-anchors-container {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
 
-.secondary-proyects-anchors {
+.secondary-projects-anchors {
   font-size: 18px;
   text-decoration: none;
   color: #06c;
 }
 
-.secondary-proyects-anchors:hover {
+.secondary-projects-anchors:hover {
   text-decoration: underline;
 }
 
-.secondary-proyects-image-container {
+.secondary-projects-image-container {
   width: 100%;
   height: 55%;
   overflow: hidden;
@@ -64,7 +73,7 @@
   width: 80%;
 }
 
-.secondary-proyects-description-container{
+.secondary-projects-description-container{
   width: 90%;
   height: 25%;
 }
@@ -75,36 +84,36 @@
   text-align: center;
 }
 @media screen and (max-width: 1070px) {
-  .secondary-proyect{
+  .secondary-project{
     height: 420px;
     width: 330px;
   }
-  .secondary-proyects-titles-container {
+  .secondary-projects-titles-container {
     height: 40%;
   }
-  .secondary-proyects-title{
+  .secondary-projects-title{
     font-size: 45px;
   }
   .text{
     font-size: 18px;
   }
-  .secondary-proyects-image-container{
+  .secondary-projects-image-container{
     height: 50%;
   }
 }
 @media screen and (max-width: 734px) {
-  .secondary-proyect{
+  .secondary-project{
     height: 550px;
     width: 360px;
     margin: auto;
 }
-.secondary-proyects-titles-container {
+.secondary-projects-titles-container {
   height: 30%;
 }
-.secondary-proyects-title{
+.secondary-projects-title{
   font-size: 40px;
 }
-.secondary-proyects-description-container{
+.secondary-projects-description-container{
   width: 100%;
 }
 }

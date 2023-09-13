@@ -1,21 +1,23 @@
 import React from "react";
 import "./SecondaryProyects.css";
+import { usePortfolioContext } from "../../../context/PortfolioContext";
 
-function SecondaryProyects({ color, title, image, text, repositorio, deploy }) {
+function SecondaryProyects({ title, image, text, repositorio, deploy }) {
+  const {darkMode} = usePortfolioContext()
   return (
-    <div className={`secondary-proyect ${color}`}>
-      <div className="secondary-proyects-titles-container">
-        <h1 className="secondary-proyects-title">{title}</h1>
-        <div className="secondary-proyects-anchors-container">
+    <div className={darkMode === true ? 'secondary-project dark-projects' : 'secondary-project light-projects'}>
+      <div className="secondary-projects-titles-container">
+        <h1 className="secondary-projects-title">{title}</h1>
+        <div className="secondary-projects-anchors-container">
           <a
-            className="secondary-proyects-anchors"
+            className="secondary-projects-anchors"
             target="_blank"
             href={repositorio}
           >
             Repositorio
           </a>
           <a
-            className="secondary-proyects-anchors"
+            className="secondary-projects-anchors"
             target="_blank"
             href={deploy}
           >
@@ -23,10 +25,10 @@ function SecondaryProyects({ color, title, image, text, repositorio, deploy }) {
           </a>
         </div>
       </div>
-      <div className="secondary-proyects-description-container">
+      <div className="secondary-projects-description-container">
         <h1 className="text">{text}</h1>
       </div>
-      <div className="secondary-proyects-image-container">
+      <div className="secondary-projects-image-container">
         <img className="imagen-sec" src={image} alt={title} />
       </div>
     </div>

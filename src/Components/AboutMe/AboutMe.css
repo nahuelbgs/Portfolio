@@ -1,6 +1,6 @@
 .section-aboutMe {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   max-width: 1020px;
   margin: auto;
 }
@@ -14,9 +14,10 @@
 
 .tecnologias-container {
   display: flex;
-  width: 60%;
+  width: 100%;
   align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .tecnologias-image {
@@ -32,8 +33,8 @@
   }
   .tecnologias-container {
     width: 690px;
-    justify-content: space-between;
     margin: auto;
+    justify-content: center;
   }
 }
 
@@ -48,6 +49,7 @@
   .tecnologias-container {
     width: 100%;
     justify-content: center;
+    margin-bottom: 15px
   }
   .tecnologias-image {
     width: 85px;

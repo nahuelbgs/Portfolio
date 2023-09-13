@@ -44,7 +44,7 @@
 
 a {
   font-weight: 400;
-  color: #555555;
+  color: #06c;
   text-decoration: inherit;
   cursor: pointer;
 }
@@ -96,4 +96,9 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.dark{
+  background-color: #191F2C;
+  color: #fff;
 }
