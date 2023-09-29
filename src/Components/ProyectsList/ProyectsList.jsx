@@ -3,6 +3,7 @@ import "./ProyectsList.css";
 import PrincipalProyects from "../Proyects/PrincipalProyects/PrincipalProyects";
 import SecondaryProyects from "../Proyects/SecondaryProyects/SecondaryProyects";
 import { usePortfolioContext } from "../../context/PortfolioContext";
+import BestProyect from "../Proyects/BestProyect/BestProyect";
 function ProyectsList() {
   const { darkMode } = usePortfolioContext();
   return (
@@ -13,7 +14,16 @@ function ProyectsList() {
       id="ProyectsList"
     >
       <div className="principal-proyects-container">
-        <div className="proyect-1">
+      <div className="proyect-1">
+          <BestProyect
+            title="Mis Artistas"
+            deploy="https://mis-artistas.vercel.app/"
+            repositorio="https://github.com/nahuelbgs/mis-artistas"
+            firstText='¿Te gustaría conocer cuáles son los artistas que más has escuchado?'
+            secondText="Muestra tus principales artistas y canciones en Spotify durante el último mes, los últimos seis meses y a lo largo de tu historial de escucha."
+          />
+        </div>
+        <div className="proyect-2">
           <PrincipalProyects
             title="No Gimmicks"
             image="https://i.postimg.cc/j5s3D34t/no-gimmicks.png"
@@ -23,7 +33,7 @@ function ProyectsList() {
             secondText="Permite a los usuarios filtrar y agregar productos al carrito de compras."
           />
         </div>
-        <div className="proyect-2">
+        <div className="proyect-3">
           <SecondaryProyects
             title="Calcular TMB"
             image="https://i.postimg.cc/252jbMNx/tmb.png"
@@ -32,7 +42,7 @@ function ProyectsList() {
             text="Calcula tu tasa metabólica basal para conocer las calorías necesarias para el mantenimiento diario del cuerpo."
           />
         </div>
-        <div className="proyect-3">
+        <div className="proyect-4">
           <SecondaryProyects
             title="Rick And Morty"
             text="Aplicación con personajes de Rick and Morty que incluye paginación, filtro por nombre y opción de agregar a favoritos."
@@ -41,7 +51,7 @@ function ProyectsList() {
             repositorio="https://github.com/nahuelbgs/Rick-and-Morty"
           />
         </div>
-        <div className="proyect-4">
+        <div className="proyect-5">
           <PrincipalProyects
             title="Quiz App"
             image="https://i.postimg.cc/652K6TQz/quiz.png"
