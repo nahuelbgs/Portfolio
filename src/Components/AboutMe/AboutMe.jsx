@@ -24,40 +24,7 @@ function AboutMe() {
         </a>
         <h1 className="tecnologias-h1">Tecnologías</h1>
         <div className="tecnologias-container">
-          <img
-            title="CSS"
-            className="tecnologias-image"
-            src="https://i.postimg.cc/CKq1tJ3C/css.png"
-            alt="CSS Logo"
-          />
-          <img
-            title="JavaScript"
-            className="tecnologias-image"
-            src="https://i.postimg.cc/3NKxkhd9/js.png"
-            alt="JavaScript Logo"
-          />
-          <img
-            title="React"
-            className="tecnologias-image"
-            src="https://i.postimg.cc/sfc2tMNL/react.png"
-            alt="React Logo"
-          />
-          <img
-            title="Git"
-            className="tecnologias-image"
-            src="https://i.postimg.cc/sXWTMFtB/git.png"
-            alt="Git Logo"
-          />
-          <img
-            title="Github"
-            className="tecnologias-image"
-            src={
-              darkMode === true
-                ? "https://i.postimg.cc/8c0928ft/github-light.png"
-                : "https://i.postimg.cc/7ZMX78Pd/git.png"
-            }
-            alt="Github Logo"
-          />
+
           <img
             title="Firebase"
             className="tecnologias-image"

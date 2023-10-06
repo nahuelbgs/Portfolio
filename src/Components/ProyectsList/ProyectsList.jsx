@@ -3,7 +3,7 @@ import "./ProyectsList.css";
 import PrincipalProyects from "../Proyects/PrincipalProyects/PrincipalProyects";
 import SecondaryProyects from "../Proyects/SecondaryProyects/SecondaryProyects";
 import { usePortfolioContext } from "../../context/PortfolioContext";
-import BestProyect from "../Proyects/BestProyect/BestProyect";
+import Tecnologias from '../../JSON/Tecnologias.json'
 function ProyectsList() {
   const { darkMode } = usePortfolioContext();
   return (
@@ -14,51 +14,46 @@ function ProyectsList() {
       id="ProyectsList"
     >
       <div className="principal-proyects-container">
-      <div className="proyect-1">
-          <BestProyect
+        <div className="proyect-1">
+        <PrincipalProyects
             title="Mis Artistas"
+            image="https://i.postimg.cc/7Yr9qtQ2/mis-artistas.png"
             deploy="https://mis-artistas.vercel.app/"
             repositorio="https://github.com/nahuelbgs/mis-artistas"
-            firstText='¿Te gustaría conocer cuáles son los artistas que más has escuchado?'
-            secondText="Muestra tus principales artistas y canciones en Spotify durante el último mes, los últimos seis meses y a lo largo de tu historial de escucha."
+            firstText="¿Te gustaría conocer cuáles son los artistas que más has escuchado?"
+            secondText="Muestra tus principales artistas y canciones en Spotify."
+            tecnologias={[Tecnologias[0], Tecnologias[2], Tecnologias[3], Tecnologias[4], Tecnologias[8]]}
           />
         </div>
         <div className="proyect-2">
-          <PrincipalProyects
-            title="No Gimmicks"
-            image="https://i.postimg.cc/j5s3D34t/no-gimmicks.png"
-            deploy="https://no-gimmicks.vercel.app/"
-            repositorio="https://github.com/nahuelbgs/NoGimmicks"
-            firstText="No Gimmicks es un ecommerce especializado en la venta de ropa y accesorios."
-            secondText="Permite a los usuarios filtrar y agregar productos al carrito de compras."
+          <SecondaryProyects
+            title="Trivia App"
+            image="https://i.postimg.cc/hGBMtz50/trivia.png"
+            deploy="https://trivia-app-nahuelbgs.vercel.app/"
+            repositorio="https://github.com/nahuelbgs/trivia-app"
+            text="Demuestra tu sabiduría con Trivia App, una aplicación de preguntas y respuestas en inglés."
+            tecnologias={[Tecnologias[0], Tecnologias[1], Tecnologias[2], Tecnologias[3], Tecnologias[7]]}
           />
         </div>
         <div className="proyect-3">
-          <SecondaryProyects
-            title="Calcular TMB"
-            image="https://i.postimg.cc/252jbMNx/tmb.png"
-            deploy="https://tmb-app-nahuelbgs.vercel.app/"
-            repositorio="https://github.com/nahuelbgs/tmb-app"
-            text="Calcula tu tasa metabólica basal para conocer las calorías necesarias para el mantenimiento diario del cuerpo."
-          />
-        </div>
-        <div className="proyect-4">
           <SecondaryProyects
             title="Rick And Morty"
             text="Aplicación con personajes de Rick and Morty que incluye paginación, filtro por nombre y opción de agregar a favoritos."
             image="https://i.postimg.cc/d13s86qc/rym.png"
             deploy="https://rick-and-morty-nahuelbgs.vercel.app/"
             repositorio="https://github.com/nahuelbgs/Rick-and-Morty"
+            tecnologias={[Tecnologias[0], Tecnologias[1], Tecnologias[2], Tecnologias[3], Tecnologias[7]]}
           />
         </div>
-        <div className="proyect-5">
-          <PrincipalProyects
-            title="Quiz App"
-            image="https://i.postimg.cc/652K6TQz/quiz.png"
-            deploy="https://trivia-app-nahuelbgs.vercel.app/"
-            repositorio="https://github.com/nahuelbgs/trivia-app"
-            firstText="Demuestra tu sabiduría con Quiz App, una aplicación de preguntas y respuestas en inglés."
-            secondText="Selecciona la opción correcta mientras el contador registra tus aciertos en tiempo real."
+        <div className="proyect-4">
+        <PrincipalProyects
+            title="No Gimmicks"
+            image="https://i.postimg.cc/j5s3D34t/no-gimmicks.png"
+            deploy="https://no-gimmicks.vercel.app/"
+            repositorio="https://github.com/nahuelbgs/NoGimmicks"
+            firstText="No Gimmicks es un ecommerce especializado en la venta de ropa y accesorios."
+            secondText="Permite a los usuarios filtrar y agregar productos al carrito de compras."
+            tecnologias={[Tecnologias[0], Tecnologias[1], Tecnologias[2], Tecnologias[3], Tecnologias[5], Tecnologias[7]]}
           />
         </div>
       </div>

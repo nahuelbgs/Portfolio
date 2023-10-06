@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./PrincipalProyects.css";
 import { usePortfolioContext } from "../../../context/PortfolioContext";
 
@@ -9,10 +9,17 @@ function PrincipalProyects({
   image,
   firstText,
   secondText,
+  tecnologias
 }) {
-  const {darkMode} = usePortfolioContext()
+  const { darkMode } = usePortfolioContext();
   return (
-    <div className={darkMode === true ? "projects-container dark-projects" : "projects-container light-projects"}>
+    <div
+      className={
+        darkMode === true
+          ? "projects-container dark-projects"
+          : "projects-container light-projects"
+      }
+    >
       <div className="projects">
         <div className="projects-titulos-container">
           <h1 className="projects-titulo">{title}</h1>
@@ -33,6 +40,13 @@ function PrincipalProyects({
           <div className="text-container">
             <h1 className="projects-text">{secondText}</h1>
           </div>
+        </div>
+        <div className="tecnologias-container">
+          {tecnologias.map((tecnologia) => (
+            <a key={tecnologia.nombre} href={tecnologia.enlace} target="_blank">
+              <img src={tecnologia.imagen} alt={tecnologia.nombre} />
+            </a>
+          ))}
         </div>
       </div>
     </div>

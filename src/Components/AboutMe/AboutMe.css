@@ -20,9 +20,7 @@
   gap: 10px;
 }
 
-.tecnologias-image {
-  width: 110px;
-}
+
 @media screen and (max-width: 1070px) {
   .section-aboutMe {
     text-align: center;

@@ -1,6 +1,8 @@
 .section-cover {
   height: 100vh;
   display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 .name-container {
@@ -9,35 +11,20 @@
   text-align: center;
 }
 
-.name {
-  font-size: 34px;
-  font-weight: 700;
-  line-height: 0;
+.about-me{
+  font-size: 72px;
 }
 
-.frontend {
-  font-size: 20px;
+.nahuel-amaya{
+  color: #06c;
 }
 
-.nav {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.nav-anchors {
-  font-size: 100px;
-  width: fit-content;
+.login-container{
+  width: 380px;
+  height: 380px;
+  background-color: yellowgreen;
   margin: auto;
-  color: #a5a5a5;
-}
-
-.a-darkMode:hover{
-  color: #fff;
-}
-
-.a-lightMode:hover{
-  color: #000;
+  border-radius: 1.5rem;
 }
 
 .switch {

@@ -75,7 +75,14 @@
 
 .secondary-projects-description-container{
   width: 90%;
-  height: 25%;
+  height: 20%;
+}
+
+.secondary-projects-tecnologias-container{
+  display: flex;
+  height: 32px;
+  margin: 14px 0;
+  gap: 8px;
 }
 
 .text{
