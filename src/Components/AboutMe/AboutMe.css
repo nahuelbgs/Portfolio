@@ -45,13 +45,10 @@ li{
   .section-aboutMe {
     text-align: center;
   }
-  .aboutMe{
-    width: 690px;
-    margin: auto;
+  .aboutMe-tecnologias-container{
+    display: block;
   }
-  .tecnologias-container {
-    width: 690px;
-    margin: auto;
+  .tecnologiasList{
     justify-content: center;
   }
 }
@@ -63,13 +60,5 @@ li{
   }
   .aboutMe{
     width: 100%;
-  }
-  .tecnologias-container {
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 15px
-  }
-  .tecnologias-image {
-    width: 85px;
   }
 }

@@ -25,6 +25,7 @@ function AboutMe() {
             <li>FIREBASE</li>
             <li>SASS</li>
             <li>GIT</li>
+            <li>GITHUB</li>
           </ul>
         </div>
       </div>
