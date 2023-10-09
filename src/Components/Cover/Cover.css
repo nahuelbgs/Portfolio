@@ -3,23 +3,46 @@
   display: flex;
   align-items: center;
   justify-items: center;
+  color: white;
+  background-image: url("https://i.postimg.cc/0yYT5tfc/Cover.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .name-container {
   max-width: 1020px;
   margin: auto;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  animation: Slide_Up 1.8s ease;
+  gap: 15px;
 }
 
-.about-me{
+.soy{
+  font-size: 36px;
+  width: fit-content;
+  margin: 0;
+}
+
+.about-me {
+  text-align: left;
+  font-size: 36px;
+  width: 60%;
+  margin: 0;
+}
+
+a{
+  width: fit-content;
+}
+
+.nahuel-amaya {
   font-size: 72px;
+  width: fit-content;
+  margin: 0;
 }
 
-.nahuel-amaya{
-  color: #06c;
-}
-
-.login-container{
+.login-container {
   width: 380px;
   height: 380px;
   background-color: yellowgreen;
@@ -27,92 +50,37 @@
   border-radius: 1.5rem;
 }
 
-.switch {
-  position: absolute;
-  display: inline-block;
-  width: 60px;
-  height: 24px;
-  top: 15px;
-  left: 75%;
-  border: none;
-}
 
-.switch input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-  border-radius: 34px;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-  border-radius: 34px;
-  z-index: 1000;
-}
-
-.sun{
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  width: 26px;
-  user-select: none;
-  z-index: 0;
-}
-
-.moon{
-  position: absolute;
-  top: 4px;
-  left: 40px;
-  width: 26px;
-  user-select: none;
-  z-index: 1;
-}
-
-input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(36px);
+@keyframes Slide_Up {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @media screen and (max-width: 1070px) {
-.nav-anchors{
-  font-size: 66px;
-}
+  .about-me {
+    font-size: 60px;
+    width: 80%;
+  }
+  .name-container{
+    margin-left: 2rem;
+  }
 }
 
 @media screen and (max-width: 734px) {
-  .name-container{
+  .name-container {
     width: 100%;
-}
-.nav-anchors{
-  font-size: 45px;
-}
+    margin: 0 .5rem;
+  }
+  .about-me {
+    font-size: 48px;
+    width: 100%;
+  }
 }
