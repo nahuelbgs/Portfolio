@@ -10,7 +10,6 @@ function SecondaryProyects({
   deploy,
   tecnologias,
 }) {
-  console.log(tecnologias);
   const { darkMode } = usePortfolioContext();
   return (
     <div
