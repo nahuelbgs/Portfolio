@@ -17,7 +17,7 @@ function ProyectsList() {
         <div className="proyect-1">
           <PrincipalProyects
             title="Mis Artistas"
-            image="https://i.postimg.cc/7Yr9qtQ2/mis-artistas.png"
+            image="https://imgfz.com/i/L5Xtw6V.png"
             deploy="https://mis-artistas.vercel.app/"
             repositorio="https://github.com/nahuelbgs/mis-artistas"
             firstText="¿Te gustaría conocer cuáles son los artistas que más has escuchado?"
@@ -34,7 +34,7 @@ function ProyectsList() {
         <div className="proyect-2">
           <SecondaryProyects
             title="Trivia App"
-            image="https://i.postimg.cc/hGBMtz50/trivia.png"
+            image="https://imgfz.com/i/2gtfVIn.png"
             deploy="https://trivia-app-nahuelbgs.vercel.app/"
             repositorio="https://github.com/nahuelbgs/trivia-app"
             text="Demuestra tu sabiduría con Trivia App, una aplicación de preguntas y respuestas en inglés."
@@ -51,7 +51,7 @@ function ProyectsList() {
           <SecondaryProyects
             title="Rick And Morty"
             text="Aplicación con personajes de Rick and Morty que incluye paginación, filtro por nombre y opción de agregar a favoritos."
-            image="https://i.postimg.cc/d13s86qc/rym.png"
+            image="https://imgfz.com/i/7B2enSp.png"
             deploy="https://rick-and-morty-nahuelbgs.vercel.app/"
             repositorio="https://github.com/nahuelbgs/Rick-and-Morty"
             tecnologias={[
@@ -66,7 +66,7 @@ function ProyectsList() {
         <div className="proyect-4">
           <PrincipalProyects
             title="No Gimmicks"
-            image="https://i.postimg.cc/j5s3D34t/no-gimmicks.png"
+            image="https://imgfz.com/i/WnF0Kze.png"
             deploy="https://no-gimmicks.vercel.app/"
             repositorio="https://github.com/nahuelbgs/NoGimmicks"
             firstText="No Gimmicks es un ecommerce especializado en la venta de ropa y accesorios."

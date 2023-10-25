@@ -1,17 +1,17 @@
 [
     {
         "nombre": "HTML",
-        "imagen": "https://i.postimg.cc/C1qvrtmL/html-5.png",
+        "imagen": "https://i.imgur.com/kvlqxwU.png",
         "enlace": "https://developer.mozilla.org/en-US/docs/Web/HTML"
     },
     {
         "nombre": "CSS",
-        "imagen": "https://i.postimg.cc/VL174KMm/css-3.png",
+        "imagen": "https://i.imgur.com/PIpjeUu.png",
         "enlace": "https://developer.mozilla.org/en-US/docs/Web/CSS"
     },
     {
         "nombre": "JavaScript",
-        "imagen": "https://i.postimg.cc/x8P3WSHY/js.png",
+        "imagen": "https://i.imgur.com/1Accv2G.png",
         "enlace": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
@@ -21,27 +21,27 @@
     },
     {
         "nombre": "Tailwind CSS",
-        "imagen": "https://i.postimg.cc/7hxqxgC7/tailwind.png",
+        "imagen": "https://i.imgur.com/IOK9f7r.png",
         "enlace": "https://tailwindcss.com/"
     },
     {
         "nombre": "Firebase",
-        "imagen": "https://i.postimg.cc/282PZstP/firebase.png",
+        "imagen": "https://i.imgur.com/GeZsDX1.png",
         "enlace": "https://firebase.google.com/"
     },
     {
         "nombre": "Sass",
-        "imagen": "https://i.postimg.cc/Bbt2w1q5/sass.png",
+        "imagen": "https://i.imgur.com/GI1Psgl.png",
         "enlace": "https://sass-lang.com/"
     },
     {
         "nombre": "Vite",
-        "imagen": "https://i.postimg.cc/W1SbtYm3/vitepng.png",
+        "imagen": "https://i.imgur.com/7duChYC.png",
         "enlace": "https://vitejs.dev/"
     },
     {
         "nombre": "Next.js",
-        "imagen": "https://i.postimg.cc/sgfGnhwM/nextjs.png",
+        "imagen": "https://i.imgur.com/v6Q4gys.png",
         "enlace": "https://nextjs.org/"
     }
 ]

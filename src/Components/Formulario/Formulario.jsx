@@ -73,7 +73,7 @@ function Formulario() {
         <div className="form-imagen-container">
           <img
             className="form-imagen"
-            src="https://i.ibb.co/Z2cVswX/Mail-i-OS-svg.png"
+            src="https://imgfz.com/i/tVhZcwL.png"
           />
         </div>
       </div>
